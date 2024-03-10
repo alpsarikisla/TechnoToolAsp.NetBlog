@@ -1,0 +1,61 @@
+﻿body {
+    background-color:#f1f1f1;
+    font-family:Calibri;
+}
+.tasiyici {
+    width: 400px;
+    min-height: 350px;
+    background-color: white;
+    margin: 220px auto 0 auto;
+    padding:15px;
+}
+.baslik{
+    text-align:center;
+    border-bottom:2px solid teal;
+}
+.icerik{
+    padding:15px 0;
+}
+.satir{
+    padding:7px 0;
+}
+.formetiket{
+    display:block;
+    margin-bottom:5px;
+    color:#525252;
+}
+.metinkutu{
+    padding:10px;
+    width:100%;
+    font-size:11pt;
+    box-sizing:border-box;
+    border-radius:7px;
+    border:1px solid silver;
+}
+    .metinkutu:focus{
+        outline:1px solid teal;
+    }
+    .sus{
+        border-bottom:1px solid silver;
+        margin:10px 0;
+    }
+.girisbutton {
+    width: 100%;
+    padding: 10px 0;
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+    border-radius: 7px;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Calibri;
+}
+.basarisizpanel {
+    background-color: #ff9494;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid red;
+    margin:15px 0;
+}
+

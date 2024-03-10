@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\technotoolblogweb\\adminpanel\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|solutionrelative:technotoolblogweb\\adminpanel\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\technotoolblogweb\\adminpanel\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|solutionrelative:technotoolblogweb\\adminpanel\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\technotoolblogweb\\adminpanel\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|solutionrelative:technotoolblogweb\\adminpanel\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\technotoolblogweb\\adminpanel\\admingiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|solutionrelative:technotoolblogweb\\adminpanel\\admingiris.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\technotoolblogweb\\adminpanel\\admingiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|solutionrelative:technotoolblogweb\\adminpanel\\admingiris.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\technotoolblogweb\\adminpanel\\assets\\css\\anastyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9CD501DF-0369-483A-A76B-C928C334BB4F}|TechnoToolBlogWeb\\TechnoToolBlogWeb.csproj|solutionrelative:technotoolblogweb\\adminpanel\\assets\\css\\anastyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0DD9D9-E01A-42BF-97F3-F32BE56C9F27}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0DD9D9-E01A-42BF-97F3-F32BE56C9F27}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\verimodeli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0DD9D9-E01A-42BF-97F3-F32BE56C9F27}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\verierisimkatmani\\yonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0DD9D9-E01A-42BF-97F3-F32BE56C9F27}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\yonetici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0DD9D9-E01A-42BF-97F3-F32BE56C9F27}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\303\\documents\\github\\technotoolasp.netblog\\verierisimkatmani\\baglantiyollari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F0DD9D9-E01A-42BF-97F3-F32BE56C9F27}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\baglantiyollari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 146,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\Default.aspx",
+              "RelativeDocumentMoniker": "TechnoToolBlogWeb\\AdminPanel\\Default.aspx",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\Default.aspx",
+              "RelativeToolTip": "TechnoToolBlogWeb\\AdminPanel\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-10T14:18:07.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.Master.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\Admin.Master.cs",
+              "RelativeDocumentMoniker": "TechnoToolBlogWeb\\AdminPanel\\Admin.Master.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\Admin.Master.cs",
+              "RelativeToolTip": "TechnoToolBlogWeb\\AdminPanel\\Admin.Master.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T14:13:15.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\Admin.Master",
+              "RelativeDocumentMoniker": "TechnoToolBlogWeb\\AdminPanel\\Admin.Master",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\Admin.Master",
+              "RelativeToolTip": "TechnoToolBlogWeb\\AdminPanel\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-10T14:13:11.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnaStyle.css",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\assets\\css\\AnaStyle.css",
+              "RelativeDocumentMoniker": "TechnoToolBlogWeb\\AdminPanel\\assets\\css\\AnaStyle.css",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\assets\\css\\AnaStyle.css",
+              "RelativeToolTip": "TechnoToolBlogWeb\\AdminPanel\\assets\\css\\AnaStyle.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-10T13:45:57.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminGiris.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx.cs",
+              "RelativeDocumentMoniker": "TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx.cs",
+              "RelativeToolTip": "TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T13:15:01.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VeriModeli.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\VeriErisimKatmani\\VeriModeli.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeriModeli.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\VeriErisimKatmani\\VeriModeli.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\VeriModeli.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T13:01:39.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Yonetici.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\VeriErisimKatmani\\Yonetici.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\Yonetici.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\VeriErisimKatmani\\Yonetici.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\Yonetici.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T12:58:37.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaglantiYollari.cs",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\VeriErisimKatmani\\BaglantiYollari.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\BaglantiYollari.cs",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\VeriErisimKatmani\\BaglantiYollari.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\BaglantiYollari.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T12:55:37.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminGiris.aspx",
+              "DocumentMoniker": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx",
+              "RelativeDocumentMoniker": "TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx",
+              "ToolTip": "C:\\Users\\303\\Documents\\GitHub\\TechnoToolAsp.NetBlog\\TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx",
+              "RelativeToolTip": "TechnoToolBlogWeb\\AdminPanel\\AdminGiris.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-10T12:51:38.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
