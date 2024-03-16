@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Techno Tool Admin Panel</title>
     <link href="assets/css/AnaStyle.css" rel="stylesheet" />
+    <link href="assets/css/FormStyle.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -19,16 +20,19 @@
                 <asp:Label ID="lbl_kullanici" runat="server">Murtaza</asp:Label>
                 <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click">Güvenli Çıkış</asp:LinkButton>
             </div>
-            <div style="clear:both"></div>
+            <div style="clear: both"></div>
         </div>
         <div class="icerikTasiyici">
             <div class="yanMenu">
+                <a href="Default.aspx">Yönetim Panel</a>
+                <a href="KategoriEkle.aspx">Kategori Ekle</a>
+                <a href="KategoriListele.aspx">Kategori Listele</a>
             </div>
             <div class="icerik">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
-            <div style="clear:both"></div>
+            <div style="clear: both"></div>
         </div>
 
     </form>

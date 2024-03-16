@@ -19,11 +19,11 @@
                 </asp:Panel>
                 <div class="satir">
                     <label class="formetiket">Kullanıcı Adı</label>
-                    <asp:TextBox ID="tb_kullaniciadi" runat="server" CssClass="metinkutu" placeholder="Kullanıcı Adınız"></asp:TextBox>
+                    <asp:TextBox ID="tb_kullaniciadi" runat="server" CssClass="metinkutu" placeholder="Kullanıcı Adınız" Text="AlpHodja"></asp:TextBox>
                 </div>
                 <div class="satir">
                     <label class="formetiket">Şifre</label>
-                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinkutu" TextMode="Password" placeholder="Şifreniz"></asp:TextBox>
+                    <asp:TextBox ID="tb_sifre" runat="server" CssClass="metinkutu" placeholder="Şifreniz" Text="1234"></asp:TextBox>
                 </div>
                 <div class="satir">
                     <div class="sus"></div>

@@ -30,11 +30,23 @@ body {
     width: 13%;
     min-height: 800px;
     float: left;
-    padding: 15px;
+   
 }
-.icerik {
-    width: 80%;
-    min-height: 800px;
-    float: left;
-    padding: 20px;
-}
+    .yanMenu a {
+       
+        display: block;
+        padding: 7px 15px;
+        border-bottom: 1px solid silver;
+        text-decoration: none;
+        color: dimgrey;
+    }
+    .yanMenu a:hover {
+        background-color: #e0e0e0;
+        color:#282828;
+    }
+    .icerik {
+        width: 80%;
+        min-height: 800px;
+        float: left;
+        padding: 20px;
+    }

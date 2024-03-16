@@ -69,8 +69,11 @@
   <ItemGroup>
     <Content Include="AdminPanel\AdminGiris.aspx" />
     <Content Include="AdminPanel\assets\css\AnaStyle.css" />
+    <Content Include="AdminPanel\assets\css\FormStyle.css" />
     <Content Include="AdminPanel\assets\css\girisStyle.css" />
     <Content Include="AdminPanel\Default.aspx" />
+    <Content Include="AdminPanel\KategoriEkle.aspx" />
+    <Content Include="AdminPanel\KategoriListele.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +97,20 @@
     </Compile>
     <Compile Include="AdminPanel\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriEkle.aspx.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriEkle.aspx.designer.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriListele.aspx.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriListele.aspx.designer.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,99 @@
+﻿.formTasiyici
+{
+    
+
+    
+}
+.formBaslik {
+    padding: 10px;
+    background-color: #dbdbdb;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid silver;
+}
+.formIcerik {
+    border: 1px solid silver;
+    padding: 10px;
+}
+.satir {
+    padding: 7px 0;
+}
+
+.formetiket {
+    display: block;
+    margin-bottom: 10px;
+    color: #525252;
+}
+
+.metinkutu {
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+    .metinkutu:focus {
+        outline: 1px solid teal;
+    }
+
+.formButton {
+    padding: 7px 30px;
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+    border-radius: 7px;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Calibri;
+}
+
+.basarisizpanel {
+    background-color: #ff9494;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid red;
+    margin: 15px 0;
+}
+.basarilipanel {
+    background-color: #79ca79;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid forestGreen;
+    margin: 15px 0;
+}
+.tablo {
+    width: 100%;
+    border: 1px solid silver;
+}
+.tablo tr{
+   
+}
+    .tablo tr th {
+        border: 1px solid silver;
+        border-bottom:3px solid silver;
+        border-top:none;
+        background-color:#f2f2f2;
+        text-align:left;
+        padding:10px 7px;
+    }
+    .tablo tr td {
+        border: 1px solid #f2f2f2;
+        padding: 7px 3px;
+    }
+.tablebuttonduzenle {
+    background-color: #79ca79;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+.tablebuttonsil {
+    background-color: #ff9494;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    color:white;
+}

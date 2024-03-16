@@ -18,7 +18,6 @@ namespace VeriErisimKatmani
 
         #region Yönetici Metotları
 
-
         public Yonetici YoneticiGiris(string kullaniciAdi, string sifre)
         {
             try
@@ -58,5 +57,63 @@ namespace VeriErisimKatmani
 
         #endregion
 
+
+        #region Kategori Metotları
+
+        public bool KategoriEkle(Kategori kat)
+        {
+            try
+            {
+                komut.CommandText = "INSERT INTO Kategoriler(Isim, Aciklama, Durum) VALUES(@isim,@aciklama,@durum)";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@isim", kat.Isim);
+                komut.Parameters.AddWithValue("@aciklama", kat.Aciklama);
+                komut.Parameters.AddWithValue("@durum", kat.Durum);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        public List<Kategori> TumKategorileriGetir()
+        {
+            List<Kategori> kategoriler = new List<Kategori>();
+
+            try
+            {
+                komut.CommandText = "SELECT ID, Isim, Aciklama, Durum FROM Kategoriler";
+                komut.Parameters.Clear();
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim = okuyucu.GetString(1);
+                    kat.Aciklama = okuyucu.GetString(2);
+                    kat.Durum = okuyucu.GetBoolean(3);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        #endregion
     }
 }
