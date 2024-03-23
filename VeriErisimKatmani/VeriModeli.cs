@@ -57,7 +57,6 @@ namespace VeriErisimKatmani
 
         #endregion
 
-
         #region Kategori Metotları
 
         public bool KategoriEkle(Kategori kat)
@@ -199,6 +198,114 @@ namespace VeriErisimKatmani
                 komut.Parameters.AddWithValue("@id", id);
                 komut.Parameters.AddWithValue("@durum", !durum);
                 komut.ExecuteNonQuery();
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        #endregion
+
+        #region Makale Metotları
+
+        public bool MakaleEkle(Makale mak)
+        {
+            try
+            {
+                komut.CommandText = "INSERT INTO Makaleler(Kategori_ID, Yazar_ID, Baslik, Ozet,Icerik,KapakResim,Tarih,GoruntulemeSayi,Durum) VALUES(@kategori_ID, @yazar_ID, @baslik, @ozet, @icerik, @kapakResim, @tarih, @goruntulemeSayi, @durum)";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@kategori_ID" , mak.Kategori_ID);
+                komut.Parameters.AddWithValue("@yazar_ID", mak.Yazar_ID);
+                komut.Parameters.AddWithValue("@baslik", mak.Baslik);
+                komut.Parameters.AddWithValue("@ozet", mak.Ozet);
+                komut.Parameters.AddWithValue("@icerik", mak.Icerik);
+                komut.Parameters.AddWithValue("@kapakResim", mak.KapakResim);
+                komut.Parameters.AddWithValue("@tarih", mak.Tarih);
+                komut.Parameters.AddWithValue("@goruntulemeSayi", mak.GoruntulemeSayi);
+                komut.Parameters.AddWithValue("@durum", mak.Durum);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        public List<Makale> MakaleListele()
+        {
+            try
+            {
+                List<Makale> makaleler = new List<Makale>();
+                komut.CommandText = "SELECT M.ID, M.Kategori_ID, K.Isim, M.Yazar_ID, Y.KullaniciAdi, M.Baslik, M.Ozet, M.Icerik, M.KapakResim, M.Tarih, M.GoruntulemeSayi, M.Durum FROM Makaleler AS M JOIN Kategoriler AS K ON M.Kategori_ID = K.ID JOIN Yoneticiler AS Y ON M.Yazar_ID = Y.ID";
+                komut.Parameters.Clear();
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Makale mak = new Makale();
+                    mak.ID = okuyucu.GetInt32(0);
+                    mak.Kategori_ID = okuyucu.GetInt32(1);
+                    mak.Kategori = okuyucu.GetString(2);
+                    mak.Yazar_ID = okuyucu.GetInt32(3);
+                    mak.Yazar = okuyucu.GetString(4);
+                    mak.Baslik = okuyucu.GetString(5);
+                    mak.Ozet = okuyucu.GetString(6);
+                    mak.Icerik = okuyucu.GetString(7);
+                    mak.KapakResim = okuyucu.GetString(8);
+                    mak.Tarih = okuyucu.GetDateTime(9);
+                    mak.GoruntulemeSayi = okuyucu.GetInt32(10);
+                    mak.Durum = okuyucu.GetBoolean(11);
+                    makaleler.Add(mak);
+                }
+                return makaleler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        public Makale MakaleGetir(int id)
+        {
+            try
+            {
+                komut.CommandText = "SELECT M.ID, M.Kategori_ID, K.Isim, M.Yazar_ID, Y.KullaniciAdi, M.Baslik, M.Ozet, M.Icerik, M.KapakResim, M.Tarih, M.GoruntulemeSayi, M.Durum FROM Makaleler AS M JOIN Kategoriler AS K ON M.Kategori_ID = K.ID JOIN Yoneticiler AS Y ON M.Yazar_ID = Y.ID WHERE M.ID = @id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                Makale mak = new Makale();
+                while (okuyucu.Read())
+                {
+                    mak.ID = okuyucu.GetInt32(0);
+                    mak.Kategori_ID = okuyucu.GetInt32(1);
+                    mak.Kategori = okuyucu.GetString(2);
+                    mak.Yazar_ID = okuyucu.GetInt32(3);
+                    mak.Yazar = okuyucu.GetString(4);
+                    mak.Baslik = okuyucu.GetString(5);
+                    mak.Ozet = okuyucu.GetString(6);
+                    mak.Icerik = okuyucu.GetString(7);
+                    mak.KapakResim = okuyucu.GetString(8);
+                    mak.Tarih = okuyucu.GetDateTime(9);
+                    mak.GoruntulemeSayi = okuyucu.GetInt32(10);
+                    mak.Durum = okuyucu.GetBoolean(11);
+                }
+                return mak;
+            }
+            catch
+            {
+                return null;
             }
             finally
             {

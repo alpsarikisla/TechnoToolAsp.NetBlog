@@ -27,6 +27,12 @@
                 <a href="Default.aspx">Yönetim Panel</a>
                 <a href="KategoriEkle.aspx">Kategori Ekle</a>
                 <a href="KategoriListele.aspx">Kategori Listele</a>
+                <a href="MakaleEkle.aspx">Makale Ekle</a>
+                <a href="MakaleListele.aspx">Makale Listele</a>
+                <a href="#">Üyeler</a>
+                <a href="#">Yorumlar</a>
+                <a href="#">Admin/Moderatör Ekle</a>
+                <a href="#">Kullanıcı Listele</a>
             </div>
             <div class="icerik">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -36,5 +42,9 @@
         </div>
 
     </form>
+    <script src="assets/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('ContentPlaceHolder1_tb_Icerik');
+    </script>
 </body>
 </html>

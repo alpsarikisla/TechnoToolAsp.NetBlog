@@ -15,6 +15,16 @@
     border: 1px solid silver;
     padding: 10px;
 }
+.sol{
+    float:left;
+    width:550px;
+    margin:0px 20px;
+}
+.sag {
+    float: left;
+    width: 900px;
+    margin-left:10px;
+}
 .satir {
     padding: 7px 0;
 }
