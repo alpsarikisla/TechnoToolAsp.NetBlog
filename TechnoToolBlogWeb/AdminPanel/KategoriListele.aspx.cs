@@ -16,5 +16,21 @@ namespace TechnoToolBlogWeb.AdminPanel
             lv_kategoriler.DataSource = db.TumKategorileriGetir();
             lv_kategoriler.DataBind();
         }
+
+        protected void lv_kategoriler_ItemCommand(object sender, ListViewCommandEventArgs e)
+        {
+            int id = Convert.ToInt32(e.CommandArgument);
+            if (e.CommandName == "sil")
+            {
+                db.KategoriSil(id);
+            }
+            if (e.CommandName == "durum")
+            {
+                db.KategoriDurumDegistir(id);
+            }
+
+            lv_kategoriler.DataSource = db.TumKategorileriGetir();
+            lv_kategoriler.DataBind();
+        }
     }
 }

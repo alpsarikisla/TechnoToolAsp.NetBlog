@@ -72,6 +72,7 @@
     <Content Include="AdminPanel\assets\css\FormStyle.css" />
     <Content Include="AdminPanel\assets\css\girisStyle.css" />
     <Content Include="AdminPanel\Default.aspx" />
+    <Content Include="AdminPanel\KategoriDuzenle.aspx" />
     <Content Include="AdminPanel\KategoriEkle.aspx" />
     <Content Include="AdminPanel\KategoriListele.aspx" />
     <Content Include="Web.config" />
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="AdminPanel\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriDuzenle.aspx.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\KategoriDuzenle.aspx.designer.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanel\KategoriEkle.aspx.cs">
       <DependentUpon>KategoriEkle.aspx</DependentUpon>
