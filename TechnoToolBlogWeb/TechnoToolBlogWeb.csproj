@@ -389,6 +389,16 @@
     <Content Include="AdminPanel\MakaleDuzenle.aspx" />
     <Content Include="AdminPanel\MakaleEkle.aspx" />
     <Content Include="AdminPanel\MakaleListele.aspx" />
+    <Content Include="assets\css\ArayuzStyle.css" />
+    <Content Include="assets\reklamGorselleri\dedicated\120x600.gif" />
+    <Content Include="assets\reklamGorselleri\dedicated\160x600.gif" />
+    <Content Include="assets\reklamGorselleri\dedicated\250x250.gif" />
+    <Content Include="assets\reklamGorselleri\dedicated\300x250.gif" />
+    <Content Include="assets\reklamGorselleri\dedicated\336x280.gif" />
+    <Content Include="assets\reklamGorselleri\dedicated\468x60.gif" />
+    <Content Include="assets\reklamGorselleri\dedicated\728x90.gif" />
+    <Content Include="Default.aspx" />
+    <Content Include="MakaleIcerik.aspx" />
     <Content Include="Resimler\MakaleResimleri\11745b83-5931-4853-bf39-76f35f7558b7.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -456,6 +466,27 @@
     <Compile Include="AdminPanel\MakaleListele.aspx.designer.cs">
       <DependentUpon>MakaleListele.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MakaleIcerik.aspx.cs">
+      <DependentUpon>MakaleIcerik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakaleIcerik.aspx.designer.cs">
+      <DependentUpon>MakaleIcerik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -476,6 +507,7 @@
     <Content Include="AdminPanel\assets\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="AdminPanel\assets\ckeditor\SECURITY.md" />
     <Content Include="AdminPanel\assets\ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="MasterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -490,7 +522,9 @@
       <Name>VeriErisimKatmani</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="assets\siteResimleri\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

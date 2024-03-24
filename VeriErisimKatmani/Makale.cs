@@ -18,6 +18,7 @@ namespace VeriErisimKatmani
         public string Icerik { get; set; }
         public string KapakResim { get; set; }
         public DateTime Tarih { get; set; }
+        public string TarihStr { get; set; }
         public int GoruntulemeSayi { get; set; }
         public bool Durum { get; set; }
     }

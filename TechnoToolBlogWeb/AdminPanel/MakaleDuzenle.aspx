@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminPanel/Admin.Master" AutoEventWireup="true" CodeBehind="MakaleDuzenle.aspx.cs" Inherits="TechnoToolBlogWeb.AdminPanel.MakaleDuzenle" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminPanel/Admin.Master" AutoEventWireup="true" CodeBehind="MakaleDuzenle.aspx.cs" Inherits="TechnoToolBlogWeb.AdminPanel.MakaleDuzenle" ValidateRequest="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

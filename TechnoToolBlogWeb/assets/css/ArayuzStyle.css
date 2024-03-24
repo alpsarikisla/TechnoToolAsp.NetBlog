@@ -1,0 +1,92 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin:0;padding:0;
+}
+body {
+    font-family:Calibri;
+}
+.tasiyici {
+    width:1200px;
+    margin:0px auto;
+    padding:10px;
+}
+.logo{
+    float:left;
+}
+.logo a{
+    color:#1f1f1f;
+    text-decoration:none;
+}
+.motto{
+    font-weight:100;
+    font-size:11pt;
+    color:dimgray;
+}
+.ustPanel{
+
+}
+.uyepanel
+{
+   
+}
+    .uyepanel a {
+        color: #0094ff;
+        border: 1px solid #0094ff;
+        padding: 5px 10px;
+        border-radius: 3px;
+        text-decoration: none;
+        float: right;
+        margin-left:10px;
+    }
+        .uyepanel a:hover {
+            color: white;
+            border: 1px solid #0094ff;
+            background-color: #0094ff
+        }
+.menu {
+    background-color: #0094ff;
+    min-height: 40px;
+}
+.menuEleman{
+    color:white;
+    text-decoration:none;
+    margin-left:10px;
+}
+.menuEleman:hover{
+    text-decoration:underline;
+}
+.sagpanel {
+    width:160px;
+    float:right;
+}
+.icerik{
+    width:1000px;
+    float:left
+}
+.makale{
+    color:dimgray;
+    margin-bottom:20px;
+}
+.makale .resim{
+
+}
+    .makale .resim img{
+        width:100%;
+    }
+    .makale .baslik {
+        padding: 10px 0px;
+    }
+    .makale .baslik a {
+        color: #0094ff;
+        text-decoration:none;
+    }
+    .makale .bilgi {
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+        padding:10px 0px;
+    }
+    .makale .ozet {
+        padding: 10px 0px;
+    }
+    .makale .devami {
+    }
+

@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="TechnoToolBlogWeb.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Techno Tool Blog</title>
+    <link href="assets/css/ArayuzStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="ustPanel">
+            <div class="tasiyici">
+                <h1 class="logo"><a href="Default.aspx">Techno Tool Blog <small class="motto">Türkiyenin teknoloji kutusu</small></a></h1>
+                <div class="uyepanel">
+                    <a href="">Giriş Yap</a>
+                    <a href="">Üye Ol</a>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="tasiyici">
+                <asp:Repeater ID="rp_kategoriler" runat="server">
+                    <ItemTemplate>
+                        <a href='Default.aspx?kategoriID=<%# Eval("ID") %>' class="menuEleman"><%# Eval("Isim") %></a>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+        </div>
+        <div class="tasiyici">
+            <div class="icerik">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="sagpanel">
+                <a href="http://www.turhost.com/r/104820/">
+                    <img src="assets/reklamGorselleri/dedicated/160x600.gif" />
+                </a>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </form>
+</body>
+</html>
