@@ -10,7 +10,7 @@
                     <img src='Resimler/MakaleResimleri/<%# Eval("KapakResim") %>' />
                 </div>
                 <div class="baslik">
-                    <a href='MakaleIcerik.aspx?MakaleID=<%# Eval("Baslik") %>'>
+                    <a href='MakaleIcerik.aspx?MakaleID=<%# Eval("ID") %>'>
                         <h2>
                             <%# Eval("Baslik") %>
                         </h2>

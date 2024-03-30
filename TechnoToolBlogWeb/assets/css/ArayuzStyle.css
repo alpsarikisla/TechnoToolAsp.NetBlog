@@ -2,7 +2,7 @@
     margin:0;padding:0;
 }
 body {
-    font-family:Calibri;
+    font-family:Rubik;
 }
 .tasiyici {
     width:1200px;
@@ -89,4 +89,48 @@ body {
     }
     .makale .devami {
     }
+.girisKutu{
+    width:500px;
+    margin:100px auto;
+    border:1px solid silver;
+}
+.girisKutu .baslik{
+    padding:20px;
+    text-align:center;
+}
+.girisForm{
+    padding:20px;
+    border-top:1px solid silver;
+}
+.formMetinKutu {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top:10px;
+    font-size:13pt;
+}
+.formGirisButon {
+    padding: 15px 30px;
+    background-color: teal;
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Calibri;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+}
+.yorumPanel{
+    padding-bottom:100px;
+}
+.formYorumButon {
+    padding: 15px 30px;
+    background-color: teal;
+    color: white;
+    font-size: 12pt;
+    font-weight: 900;
+    font-family: Calibri;
+    text-decoration: none;
+    text-align: center;
+}
 

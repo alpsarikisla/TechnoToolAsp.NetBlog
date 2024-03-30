@@ -14,8 +14,11 @@ namespace TechnoToolBlogWeb.AdminPanel
         VeriModeli db = new VeriModeli();
         protected void Page_Load(object sender, EventArgs e)
         {
-            ddl_kategoriler.DataSource = db.TumKategorileriGetir();
-            ddl_kategoriler.DataBind();
+            if (!IsPostBack)
+            {
+                ddl_kategoriler.DataSource = db.TumKategorileriGetir();
+                ddl_kategoriler.DataBind();
+            }
         }
 
         protected void lbtn_ekle_Click(object sender, EventArgs e)

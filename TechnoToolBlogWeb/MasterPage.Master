@@ -5,7 +5,10 @@
 <html>
 <head runat="server">
     <title>Techno Tool Blog</title>
-    <link href="assets/css/ArayuzStyle.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+     <link href="assets/css/ArayuzStyle.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -14,10 +17,15 @@
         <div class="ustPanel">
             <div class="tasiyici">
                 <h1 class="logo"><a href="Default.aspx">Techno Tool Blog <small class="motto">Türkiyenin teknoloji kutusu</small></a></h1>
-                <div class="uyepanel">
-                    <a href="">Giriş Yap</a>
+                <asp:Panel ID="pnl_girisyok" runat="server" class="uyepanel">
+                    <a href="UyeGiris.aspx">Giriş Yap</a>
                     <a href="">Üye Ol</a>
-                </div>
+                </asp:Panel>
+                <asp:Panel ID="pnl_girisvar" runat="server" class="uyepanel">
+                    <a href="profil.aspx">Merhaba =
+                        <asp:Literal ID="ltrl_uye" runat="server"></asp:Literal></a>
+                    <asp:LinkButton ID="lbtn_cikis" runat="server">Çıkış Yap</asp:LinkButton>
+                </asp:Panel>
                 <div style="clear: both"></div>
             </div>
         </div>
@@ -40,7 +48,7 @@
                     <img src="assets/reklamGorselleri/dedicated/160x600.gif" />
                 </a>
             </div>
-            <div style="clear:both"></div>
+            <div style="clear: both"></div>
         </div>
     </form>
 </body>

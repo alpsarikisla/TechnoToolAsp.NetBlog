@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Net.Configuration;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -446,6 +447,44 @@ namespace VeriErisimKatmani
             catch(Exception ex)
             {
                 return false;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        #endregion
+
+        #region Üye Metotları
+
+        public Uye UyeGiris(string email, string sifre)
+        {
+            try
+            {
+                Uye u = new Uye();
+                komut.CommandText = "SELECT * FROM Uyeler WHERE Email = @e AND Sifre = @s";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@e", email);
+                komut.Parameters.AddWithValue("@s", sifre);
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    u.ID = okuyucu.GetInt32(0);
+                    u.Isim = okuyucu.GetString(1);
+                    u.Soyisim = okuyucu.GetString(2);
+                    u.KullaniciAdi = okuyucu.GetString(3);
+                    u.Email = okuyucu.GetString(4);
+                    u.Sifre = okuyucu.GetString(5);
+                    u.UyelikTarihi = okuyucu.GetDateTime(6);
+                    u.Durum = okuyucu.GetBoolean(7);
+                }
+                return u;
+            }
+            catch
+            {
+                return null;
             }
             finally
             {

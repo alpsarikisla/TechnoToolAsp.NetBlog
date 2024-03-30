@@ -23,6 +23,20 @@ namespace TechnoToolBlogWeb
                 ltrl_Tarih.Text = m.TarihStr;
                 ltrl_Yazar.Text = m.Yazar;
                 img_resim.ImageUrl = "Resimler/MakaleResimleri/" + m.KapakResim;
+
+                //rp_yorumlar.DataSource = db.yorumlariGetir(id);
+                //rp_yorumlar.DataBind();
+
+                if (Session["uye"] != null)
+                {
+                    pnl_girisvar.Visible = true;
+                    pnl_girisYok.Visible = false;
+                }
+                else
+                {
+                    pnl_girisvar.Visible = false;
+                    pnl_girisYok.Visible = true;
+                }
             }
             else
             {

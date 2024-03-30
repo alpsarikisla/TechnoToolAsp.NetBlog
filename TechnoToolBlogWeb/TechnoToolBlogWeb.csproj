@@ -400,6 +400,7 @@
     <Content Include="Default.aspx" />
     <Content Include="MakaleIcerik.aspx" />
     <Content Include="Resimler\MakaleResimleri\11745b83-5931-4853-bf39-76f35f7558b7.jpg" />
+    <Content Include="UyeGiris.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -488,6 +489,13 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UyeGiris.aspx.cs">
+      <DependentUpon>UyeGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeGiris.aspx.designer.cs">
+      <DependentUpon>UyeGiris.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminPanel\Admin.Master" />
